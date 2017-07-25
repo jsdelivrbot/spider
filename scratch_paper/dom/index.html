@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>dom</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div id="outer">
+		<h1 onclick="changeText(this)">What is my favorite food?</h1>
+		<h1 onclick="changeTextColor(this)">Click to change color</h1>
+		<button id="btn" onclick="btn()">click</button>
+		<input id="words" type="text" oninput="remove()" />
+		<div class="box" onmouseover="mouseover()" onmouseout="mouseout()">Mouse over me</div>
+		<p class="meowmix">More outer text</p>
+			<div id="div1">
+				<p>no class div1 text</p>
+				<p class="woofmix">div1 text</p>
+				<div id="div2">
+					<p>no class div2 text</p>
+					<p class="woofmix">div2 text</p>
+				</div>
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>

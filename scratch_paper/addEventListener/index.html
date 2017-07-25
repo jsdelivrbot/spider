@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<title>eventlisteners</title>
+		<style>
+			body {
+				display: flex;
+				width: 100%;
+				height: 100vh;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 id="increment"></h1>
+		<button id="mybtn">meow</button>
+		<div id="demo"></div>
+		<button id="mybtn2">woof</button>
+		<div id="demo2"></div>
+
+		<script src="main.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyCzoxiYL-gR7YVlytO8R6W_veT-4B5WTCE",
+		    authDomain: "fir-fbfeb.firebaseapp.com",
+		    databaseURL: "https://fir-fbfeb.firebaseio.com",
+		    projectId: "fir-fbfeb",
+		    storageBucket: "fir-fbfeb.appspot.com",
+		    messagingSenderId: "1075212389973"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+	</body>
+</html>
