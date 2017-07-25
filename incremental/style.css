@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+span {
+    padding: 0px 50px 0px 0px;
+}
+
+p {
+    font-size: 32px;
+}
+
+#clicker {
+    background-color: green;
+    border: none;
+}
+
+#clickerbao {
+    width: 250px;
+    height: 250px;
+}
+
+#total {
+    text-align: center;
+}
+
+#upgradeButtons {
+    width: 150px;
+    height: 25px;
+}
+
+#button-format {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#worker-holder {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.worker {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bao-pic {
+    width: 120px;
+    height: 120px;
+}
