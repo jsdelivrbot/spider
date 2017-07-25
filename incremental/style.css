@@ -14,6 +14,16 @@ p {
     font-size: 32px;
 }
 
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #clicker {
     background-color: green;
     border: none;
